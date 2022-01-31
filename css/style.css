@@ -1,0 +1,64 @@
+header {
+    text-align: center;
+    color: white;
+    background-color: darkslategrey;
+  }
+  #nav {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 25px;
+  }
+  a {
+    color: white;
+  }
+ 
+  h1 {
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 60px;
+    color: white; 
+    margin-top: -20px; 
+  }
+  h2, p {
+    font-family: 'Sedgwick Ave', cursive;
+  }
+  .buyme {
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+  }
+    
+  ul {
+    padding: 10px;
+    background: rgba(0,0,0,0.5);
+  }
+  li {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+  }
+  article {
+    max-width: 500px;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: tan; 
+  }
+  body {
+      background-color: darkslategrey;
+    }
+    button {
+      width: 60px;
+      border-radius: 5px;
+      
+    }
+    button:hover {
+      cursor: pointer;
+      border: 3px solid darkslategray; 
+    }
+
+  @media (max-width: 500px) {
+    h1 {
+      font-size: 36px;
+      padding: 5px;
+    }
+    li {
+      padding: 5px;
+      display: block;
+    }
+  }
